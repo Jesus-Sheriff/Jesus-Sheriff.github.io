@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/leica2.jpg) no-repeat   center scroll;
+    background: url(../img/leica2.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -164,7 +164,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-        /*-webkit-text-stroke: 3px #222;*/
+        
 }
 
 .intro .intro-body .intro-text {
@@ -349,6 +349,9 @@ footer {
 
 footer p {
     margin: 0;
+}
+footer extra {
+    padding: 30px;
 }
 
 ::-moz-selection {
