@@ -262,19 +262,33 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    
 }
-
-.download-section {
+.contact-section{
     width: 100%;
-    padding: 50px 0;
+    height: auto;
+    padding: 100px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/IMG_1306_Editado.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+/*.download-section {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    color: #fff;
+    background: url(../img/IMG_1149_Editado.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}*/
 
 #map {
     width: 100%;
