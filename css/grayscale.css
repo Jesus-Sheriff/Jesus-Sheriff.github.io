@@ -266,13 +266,16 @@ a:focus {
 }
 .contact-section{
     display: table;
+    vertical-align: middle;
     width: 100%;
+    
     height: auto;
     padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(../img/IMG_1306_Editado.jpg) no-repeat center center scroll;
     background-color: #000;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -299,7 +302,7 @@ a:focus {
         padding-top: 250px;
     }
     .contact-section {
-        padding: 100px ;
+        padding: 100px 0;
     }
 
     .download-section {
