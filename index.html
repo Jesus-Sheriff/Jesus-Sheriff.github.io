@@ -11,6 +11,19 @@
 
   gtag('config', 'UA-76360344-1');
 </script>
+  
+  <script>
+(function(){
+
+    var scripts = ["/static/general/bf-core.min.js", "/static/containers/XMV207.js"];
+    for(var i = 0; i < scripts.length; i++) {
+        var script   = document.createElement("script");
+        script.src   = "//brandflow.net" + scripts[i] + "?ts=" + Date.now() + "#";
+        script.async = false;
+        document.head.appendChild(script);
+    }
+})();
+</script>
 
 
   <!-- Site made with Mobirise Website Builder v4.2.0, https://mobirise.com -->
